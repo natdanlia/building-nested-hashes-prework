@@ -13,7 +13,7 @@ birthday_kids = {
 }
  
 birthday_kids.each do |kids_name, age|
-    puts age
+     age
 end
 
 You're 16 years old and back in high school English class. Luckily for us, our teacher is kind of lazy and we get to watch the *Romeo and Juliet* movie from the '90s starring Leonardo DiCaprio and Claire Danes.
