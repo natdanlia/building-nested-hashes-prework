@@ -6,6 +6,15 @@
 2. Access and manipulate data in nested hashes.
 
 ## Code Along Challenge: Epic Tragedy
+birthday_kids = {
+    "Timmy" => 9, 
+    "Sarah" => 6, 
+    "Amanda" => 27
+}
+ 
+birthday_kids.collect do |kids_name, age|
+    puts age
+end
 
 You're 16 years old and back in high school English class. Luckily for us, our teacher is kind of lazy and we get to watch the *Romeo and Juliet* movie from the '90s starring Leonardo DiCaprio and Claire Danes.
 
