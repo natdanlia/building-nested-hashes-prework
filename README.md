@@ -12,7 +12,7 @@ birthday_kids = {
     "Amanda" => 27
 }
  
-birthday_kids.collect do |kids_name, age|
+birthday_kids.each do |kids_name, age|
     puts age
 end
 
